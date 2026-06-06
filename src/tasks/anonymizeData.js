@@ -4,7 +4,7 @@ async function anonymizeEvaluationData(task) {
     const rawData = task.variables.get('rawData');
 
     const anonymizedData = {
-        timestamp: new Date().toISOString().substring(0, 7), // "2026-06"
+        timestamp: new Date().toISOString().substring(0, 7), // "2026-06
         region: mapToRegion(rawData.client),
         skills: rawData.skillsEvaluated,
         textAnalysis: cleanText(rawData.comment)
