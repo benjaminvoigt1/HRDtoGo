@@ -51,7 +51,7 @@ Diese Dokumentation beschreibt die drei externen REST-Schnittstellen, die über 
 * **Schnittstellen-Anbieter:** Slack (Incoming Webhooks)
 * **Fachliches Ziel:** Sofortige Alarmierung der Teamleitung über einen dedizierten Slack-Channel, wenn ein Support-Fall eskaliert wird (Gateway "Eskalation notwendig = Ja").
 * **HTTP-Methode:** `POST`
-* **Request-URL:** `https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX`
+* * **Request-URL:** `https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX`
 * **Header:**
   * `Content-Type: application/json`
 
