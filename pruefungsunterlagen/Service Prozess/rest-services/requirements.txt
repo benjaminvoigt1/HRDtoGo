@@ -1,0 +1,3 @@
+# Keine externen Abhängigkeiten erforderlich.
+# app.py nutzt ausschließlich die Python-Standardbibliothek (http.server).
+# Voraussetzung: Python 3.8+
